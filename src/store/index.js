@@ -1,7 +1,9 @@
 import { createStore } from 'vuex'
+import regModule from './regModule'
 
 export default createStore({
   state: {
+    likes: 0
   },
   getters: {
   },
@@ -10,5 +12,6 @@ export default createStore({
   actions: {
   },
   modules: {
+    regModule
   }
 })
